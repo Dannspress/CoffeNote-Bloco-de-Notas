@@ -1,0 +1,10 @@
+.rodape {
+    background-color: var(--cor_marrom);
+    height: 65px;
+}
+
+.texto_rodape {
+    color: var(--cor_bege);
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+:root {
+    --cor_bege: #E7DDC2;
+    --cor_marrom: #554530;
+}
+
+.cabecalho {
+    color: var(--cor_bege);
+    background-color: var(--cor_marrom);
+    padding: 3rem;
+}
+
+.titulo {
+    border-bottom: 2px solid var(--cor_bege);
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+
+/* 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Bodoni Moda', serif;
+*/

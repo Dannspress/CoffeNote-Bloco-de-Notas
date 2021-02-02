@@ -1,0 +1,28 @@
+.principal {
+    background-color: var(--cor_marrom);
+    min-height: 720px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formu__input, .formu__butao {
+    background-color: var(--cor_bege);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--cor_marrom);
+    font-family: 'Bodoni Moda', serif;
+    font-size: 18px;
+}
+
+.formu__input {
+    padding: 1rem;
+    width: 40rem;
+}
+
+.formu__butao {
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
