@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.formu__input, .formu__butao {
+.form-input, .form-button {
     background-color: var(--cor_bege);
     border-color: rgba(255, 255, 255, 0.1);
     color: var(--cor_marrom);
@@ -16,12 +16,12 @@
     font-size: 18px;
 }
 
-.formu__input {
+.form-input {
     padding: 1rem;
     width: 40rem;
 }
 
-.formu__butao {
+.form-button {
     margin-left: 0.5rem;
     text-transform: uppercase;
     width: 10rem;

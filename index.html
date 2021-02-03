@@ -8,6 +8,8 @@
 		<link rel='stylesheet' href='./css/cabecalho.css'>
 		<link rel='stylesheet' href='./css/formulario.css'>
 		<link rel='stylesheet' href='./css/rodape.css'>
+		<link rel='stylesheet' href='./css/lista.css'>
+
 
 
 		<title>CoffeNote | Bloco de Notas</title>
@@ -20,15 +22,17 @@
 		</header>
 		<main class='principal'>
 			<form class='formulario'>
-				<input class='formu__input' type='text'>
-				<button class='formu__butao'>Adicionar Item</button>
+				<input class='form-input' type='text' data-form-input>
+				<button class='form-button' data-form-button>Adicionar Item</button>
 			</form>
-			<ul class='lista'>
-
+			<ul class='lista' data-list>
+				 
 			</ul>
 		</main>
 		<footer class='rodape'>
 			<p class='texto_rodape'>Contato: <a href='mailto:email@cincopalavras.com.br'>email@cincopalavras.com.br</a> | copyright &copy | Daniel Walter</p>
 		</footer>
+
+		<script src='./js/TaskList.js'></script>
 	</body>
 </html>
