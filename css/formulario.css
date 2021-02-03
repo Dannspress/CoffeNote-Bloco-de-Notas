@@ -26,3 +26,8 @@
     text-transform: uppercase;
     width: 10rem;
 }
+
+.form-button:hover {
+    color: var(--cor_bege);
+    background-color: var(--cor_marrom);
+  }

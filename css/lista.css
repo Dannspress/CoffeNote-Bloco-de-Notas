@@ -1,9 +1,58 @@
-.tarefa {
+.list {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+
+.task {
     background-color: var(--cor_bege);
     color: var(--cor_marrom);
+    display: flex;
     font-size: 30px;
     height: 30px;
+    justify-content: space-around;
     margin: 1rem 3rem 0 3rem;
     padding: 30px;
     padding-left: 20px;
 }
+
+.check-button {
+    font-family: 'Bodoni Moda', serif;
+    background-color: var(--cor_marrom);
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color: var(--cor_bege);
+    cursor: pointer;
+    outline: none;
+    width: 10rem;
+    margin-left: 80rem;
+}
+
+.task.done .check-button {
+    background-color: var(--cor_verde);
+    color: var(--cor_bege);
+  }
+  
+  .check-icon {
+    display: block;
+    padding: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  .task.done .check-icon {
+    background-color: #0B2027;
+  }
+  
+  .content {
+    margin: 0;
+  }
+  
+  .task.done .content {
+    text-decoration: line-through;
+  }
+  
