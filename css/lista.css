@@ -9,7 +9,7 @@
     background-color: var(--cor_bege);
     color: var(--cor_marrom);
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     height: 30px;
     justify-content: space-around;
     margin: 1rem 3rem 0 3rem;
@@ -26,11 +26,23 @@
     color: var(--cor_bege);
     cursor: pointer;
     outline: none;
-    width: 10rem;
-    margin-left: 80rem;
+    width: 20rem;
+    margin-left: 20rem;
 }
 
-.task.done .check-button {
+.delete-button {
+  font-family: 'Bodoni Moda', serif;
+  background-color: var(--cor_marrom);
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color: var(--cor_bege);
+    cursor: pointer;
+    outline: none;
+    width: 20rem;
+}
+
+.task.done .check-button{
     background-color: var(--cor_verde);
     color: var(--cor_bege);
   }
@@ -50,6 +62,14 @@
   
   .content {
     margin: 0;
+  }
+
+  .content-data {
+    color: #F6F1D1;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    padding: 1rem 3rem;
   }
   
   .task.done .content {

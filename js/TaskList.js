@@ -1,24 +1,7 @@
-import doneButton from './taskComplete.js';
-import deleteButton from './taskDelete.js';
+import { handleNewItem } from './createTask.js'
+import { loadTask } from './loadTask.js'
 
-    const createTask = function (evento) {
-        evento.preventDefault(); //previne refresh desnecessário da página
-        
-        const list = document.querySelector('[data-list]');
-        const input = document.querySelector('[data-form-input]');
-        const valor = input.value;
-        
-        const tarefa = document.createElement('li');
-        tarefa.classList.add('task');
-        const conteudo = `<p class="content">${valor}</p>`
-        
-        tarefa.innerHTML = conteudo;
+const newTask = document.querySelector('[data-form-button]')
+newTask.addEventListener('click', handleNewItem) //ao clicar a tarefa é criada
 
-        tarefa.appendChild(doneButton());
-        tarefa.appendChild(deleteButton());
-        list.appendChild(tarefa);
-        input.value = "";
-    }
-
-    const newTask = document.querySelector('[data-form-button]');
-    newTask.addEventListener('click', createTask); //ao clicar a tarefa é criada
+loadTask()
